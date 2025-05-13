@@ -10,13 +10,13 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
 
-cap = cv2.VideoCapture('../videos/Sit-up/situps0.mp4')
+cap = cv2.VideoCapture('pushup15.mov')
 
 #array of variables containing file urls, labels etc.
 vars = {
     "label": 2,
     "recordID": 0,
-    "csvFile": "test_dataset.csv",
+    "csvFile": "test_dataset1.csv",
     "mediaURL": ""
 }
 
